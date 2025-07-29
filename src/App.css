@@ -1,0 +1,114 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* -------------------------------------------------------------------------- */
+.main-card {
+  text-align: center !important;
+  color: white !important;
+  max-height: 100vh !important;
+  min-height: 100vh !important;
+  padding: 1rem !important;
+  position: relative !important;
+
+  /* background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.8),
+    rgba(30, 30, 30, 0.7)
+  ) !important; */
+  background-image: url("./assets/images/bg-dark_2.jpg") !important;
+  background-size: cover !important ;
+  background-position: top !important ;
+  background-repeat: no-repeat !important;
+}
+#toEditScrollBar {
+  overflow: auto !important;
+  max-height: 70vh !important;
+  padding: 0 !important;
+
+
+}
+#toEditScrollBar::-webkit-scrollbar {
+  width: 5px !important;
+  border-radius: 10px !important;
+}
+#toEditScrollBar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.135) !important;
+  border-radius: 10px !important;
+}
+
+/* -------------------------------------------------------------------------- */
+.card-list {
+  transition: all 0.5s !important;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 10px !important;
+  margin-bottom: 1rem !important;
+  border-top: 0.25px solid rgba(245, 222, 179, 0.21) !important;
+}
+.card-list:hover {
+  padding: 1rem 0 !important;
+}
+.icon-btn {
+  transition: all 0.25s !important;
+}
+.icon-btn:hover {
+  cursor: pointer;
+  color: white !important;
+}
+.icon-btn:nth-child(1):hover {
+  background-color: green !important;
+}
+.icon-btn:nth-child(2):hover {
+  background-color: rgb(100, 158, 7) !important;
+}
+.icon-btn:nth-child(3):hover {
+  background-color: rgb(154, 24, 24) !important;
+}
+/* -------------------------------------------------------------------------- */
+#add-list-btn {
+  background-color: aqua !important;
+  position: absolute !important;
+  right: calc(0% - 80px) !important;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in-out !important;
+  color: black !important;
+}
+#add-list-btn:hover {
+  background-color: green !important;
+  right: 0% !important;
+  color: white !important;
+}
+/* -------------------------------------------------------------------------- */
+.add-new-list-section {
+  /* position: absolute !important; */
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.331) !important;
+  z-index: 1000 !important;
+}
+#left {
+  text-align: left !important;
+  padding: 1rem 0.5rem !important;
+}
+
+
+
+
+
+
+#copy-right{
+    position: absolute;
+    left: 5%;
+    top: 0;
+    z-index: 1001;
+    color: #ffffff99;
+    font-size: clamp(0.5rem, 1.5vw, 1rem); 
+    font-weight: bold;
+}

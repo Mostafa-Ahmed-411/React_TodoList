@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+body{
+  background-image: url("./assets/images/bg-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32, 29, 29);
+  
+}
+
+
+
+/* fonts */
+@font-face {
+  font-family: Roboto ;
+  src: url("./assets/fonts/RobotoCondensed-Regular.ttf");
+  font-weight: normal;
+   font-display: swap;
+  }
+  @font-face {
+    font-family: Roboto ;
+    src: url("./assets/fonts/RobotoCondensed-Light.ttf");
+    font-weight: 300 ;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Roboto ;
+    src: url("./assets/fonts/RobotoCondensed-Medium.ttf");
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Roboto ;
+    src: url("./assets/fonts/RobotoCondensed-Bold.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
